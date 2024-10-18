@@ -62,7 +62,9 @@ namespace Scintilla::Internal {
 
 FontImpl::FontImpl(const FontParameters &fp) {
 	if (fp.weight == FontWeight::Bold) attrs = A_BOLD;
+#if defined(A_ITALIC)
 	if (fp.italic) attrs |= A_ITALIC;
+#endif
 	if (static_cast<int>(fp.stretch) == A_UNDERLINE) attrs |= A_UNDERLINE;
 }
 
