@@ -2,6 +2,22 @@
 
 [Atom Feed](https://github.com/orbitalquark/scinterm/releases.atom)
 
+### 5.2 (30 Nov 2024)
+
+Download:
+
+* [Scinterm 5.2][]
+
+Bugfixes:
+
+* None.
+
+Changes:
+
+* Support italic and underline styles.
+
+[Scinterm 5.2]: https://github.com/orbitalquark/scinterm/archive/scinterm_5.2.zip
+
 ### 5.1 (21 Aug 2024)
 
 Download:
